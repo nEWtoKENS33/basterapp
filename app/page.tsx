@@ -5,8 +5,8 @@ import SocialChips from "@/app/components/SocialChips";
 
 
 export default function Page() {
-  const holdersPct = Number(process.env.NEXT_PUBLIC_DISTR_HOLDERS ?? "60");
-  const airdropPct = Number(process.env.NEXT_PUBLIC_DISTR_AIRDROP ?? "40");
+  const holdersPct = Number(process.env.NEXT_PUBLIC_DISTR_HOLDERS ?? "70");
+  const airdropPct = Number(process.env.NEXT_PUBLIC_DISTR_AIRDROP ?? "30");
 
   return (
     <main className="main">
@@ -39,17 +39,8 @@ export default function Page() {
                 It refreshes automatically every few seconds so you always see the latest amount..
                 </li>
                 <li>
-                  <b>What we does whit fees:</b>All fees go back into the ecosystem.
-              We buy $ASTER with them and then distribute the value: 70% to on-chain Holders (based on snapshots) and 30% to Airdrop recipients..
-                </li>
-                <li>
                   <b>Fees policy:</b> <u>All fees accrued in the Treasury Wallet will be used to
                   buy ASTER on-chain</u> and distributed periodically:
-                  <b> {holdersPct}%</b> to on-chain <b>Holders (snapshot)</b> and
-                  <b> {airdropPct}%</b> to <b>Airdrop recipients</b>.
-                </li>
-                <li>
-                  <b>Privacy:</b> We don’t store personal data. We only read public information from the blockchain.
                 </li>
                 <li>
                   <b>Snapshots:</b> Every time to airdrop $ASTER to our holders.
