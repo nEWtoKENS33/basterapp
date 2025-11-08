@@ -26,7 +26,7 @@ export default function Page() {
       <div className="wrapper">
         {/* SECTION 1 — HOW IT WORKS (ENGLISH) */}
         <section className="card">
-          <h2 className="h2">1. How it works</h2>
+          <h2 className="h2">How it works</h2>
           <div className="howGrid">
             <div>
               <ul className="howBullets">
@@ -57,13 +57,13 @@ export default function Page() {
 
         {/* SECTION 2 — CHECKER */}
         <section className="card">
-          <h2 className="h2">2. ASTER Eligibility Checker</h2>
+          <h2 className="h2">ASTER Eligibility Checker</h2>
           <EligibilityChecker />
         </section>
 
         {/* SECTION 3 — TREASURY */}
         <section className="card">
-          <h2 className="h2">3. Treasury Wallet</h2>
+          <h2 className="h2">Treasury Wallet</h2>
           <TreasuryPanel />
         </section>
       </div>
